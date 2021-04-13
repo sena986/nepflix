@@ -15,14 +15,28 @@ const Title = styled.span`
 
 const Grid = styled.div`
   margin-top: 25px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 140px);
-  grid-gap: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    height: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #b33939;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #4b4b4b;
+    border-radius: 10px;
+  }
 `;
 
 const Section = ({ title, children }) => (
   <Container>
     <Title>{title}</Title>
+    <hr />
     <Grid>{children}</Grid>
   </Container>
 );

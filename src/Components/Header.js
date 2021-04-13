@@ -3,7 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import styled from "styled-components";
 
 const Header = styled.header`
-  color: white;
+  color: grey;
   position: fixed;
   top: 0;
   left: 0;
@@ -24,8 +24,10 @@ const Item = styled.li`
   width: 80px;
   height: 50px;
   text-align: center;
+  color: ${(props) => (props.current ? "white" : "grey")};
+  font-size: ${(props) => (props.current ? "20px" : "transparent")};
   border-bottom: 3px solid
-    ${(props) => (props.current ? "#3498db" : "transparent")};
+    ${(props) => (props.current ? "#ff3838" : "transparent")};
   transition: border-bottom 0.5s ease-in-out;
 `;
 

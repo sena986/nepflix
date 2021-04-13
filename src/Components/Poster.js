@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
+  margin: 10px;
   font-size: 12px;
 `;
 
 const Image = styled.div`
   background-image: url(${(props) => props.bgUrl});
+  width: 150px;
   height: 180px;
   background-size: cover;
   border-radius: 4px;
