@@ -37,7 +37,7 @@
   "eslintIgnore": [
     "*.js"
   ],
-  "homepage": "https://sena986.github.io/nepflix",
+  "homepage": "https://angry-mclean-933e1d.netlify.app/nepflix",
   "browserslist": {
     "production": [
       ">0.2%",

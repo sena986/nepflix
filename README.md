@@ -2,10 +2,10 @@
 
 ## Screen
 
-- [ ] Home
-- [ ] TV Shows
-- [ ] Search
-- [ ] Detail
+- [x] Home
+- [x] TV Shows
+- [x] Search
+- [x] Detail
 
 ## API Verbs
 
@@ -16,4 +16,6 @@
 - [x] Airing Today (TV)
 - [x] TV Show Detail
 - [x] Movie Detail
-- [ ] Search (Movies, TV)
+- [x] Search (Movies, TV)
+
+Complete!
