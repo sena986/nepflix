@@ -66,7 +66,7 @@ const ViewContainer = styled.div`
   white-space: nowrap;
   overflow: auto;
   &::-webkit-scrollbar {
-    height: 5px;
+    height: 7px;
   }
   &::-webkit-scrollbar-thumb {
     background-color: #b33939;
@@ -75,8 +75,9 @@ const ViewContainer = styled.div`
     border: 1px solid transparent;
   }
   &::-webkit-scrollbar-track {
-    background-color: ;
+    background-color: #4b4b4b;
     border-radius: 10px;
+  }
   }
 `;
 

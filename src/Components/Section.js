@@ -19,7 +19,7 @@ const Grid = styled.div`
   flex-wrap: nowrap;
   overflow: auto;
   &::-webkit-scrollbar {
-    height: 5px;
+    height: 7px;
   }
   &::-webkit-scrollbar-thumb {
     background-color: #b33939;
